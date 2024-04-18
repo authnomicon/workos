@@ -28,7 +28,7 @@
       "url": "https://opensource.org/licenses/MIT"
     }
   ],
-  "main": "./app",
+  "main": "./lib",
   "assembly": {
     "namespace": "org.authnomicon/workos",
     "components": [
@@ -39,6 +39,7 @@
     "com": "com"
   },
   "dependencies": {
+    "@workos-inc/node": "^7.0.0"
   },
   "devDependencies": {
     "chai": "^4.3.4",
